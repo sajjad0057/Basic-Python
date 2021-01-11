@@ -1,3 +1,5 @@
+# Using Decorator in another Way :
+
 def decorator(orginal_func):
     print('In The decoratore Function\n')
 
