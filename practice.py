@@ -1,3 +1,3 @@
-x= {'a':10}
-x['a']=x['a']+10
-print(x)
+list =  ['a','b','c','d']
+del list[2]
+print(list)
