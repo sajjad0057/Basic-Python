@@ -1,3 +1,2 @@
-list =  ['a','b','c','d']
-del list[2]
-print(list)
+a=[2,3,4,5,6,7,8]
+print(len(a))

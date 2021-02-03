@@ -49,7 +49,7 @@ def create_tree():
 
 
 def pre_order(node):
-    print(node)
+    print(node,end=" ")
     if node.left:
         pre_order(node.left)
     if node.right:
@@ -58,7 +58,7 @@ def pre_order(node):
 def in_order(node):
     if node.left:
         in_order(node.left)
-    print(node)
+    print(node,end=" ")
     if node.right:
         in_order(node.right)
 
@@ -67,17 +67,17 @@ def post_order(node):
         post_order(node.left)
     if node.right:
         post_order(node.right)
-    print(node)
+    print(node,end=" ")
 
 
 root=create_tree()
 print('PRE_ORDER TREE:--------------------->')
 pre_order(root)
 
-print('IN_ORDER TREE:--------------------->')
+print('\nIN_ORDER TREE:--------------------->')
 in_order(root)
 
-print('POST_ORDER TREE:--------------------->')
+print('\nPOST_ORDER TREE:--------------------->')
 post_order(root)
 
 
